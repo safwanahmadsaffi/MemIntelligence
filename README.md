@@ -1,14 +1,67 @@
-# AgentFlow — See Every Cent of Intelligence
+
+# Generative UI Global Hackathon: Agentic Interfaces
+
+## Team Name
+YFI
+
+## Project Name
+MemIntelligence — Live Agent Economy with Micro-Payments
+
+## Project Description
+MemIntelligence is an agent-native economic intelligence platform that goes far beyond a chatbot — it renders a live, multi-panel generative UI that updates in real time as AI agents bid, analyze, and settle micro-payments autonomously.
+
+Moving beyond text-based chat, MemIntelligence dynamically generates interactive dashboards: a live mempool alert stream from vectorblock.io, a real-time payment intent flow through Nitrolite's off-chain ERC-7824 ECDSA channels, and a Circle Arc settlement ledger — all visible simultaneously as distinct, updating UI panels. Each agent action triggers a live re-render of the economic graph, cost breakdown panel, and transaction explorer, with zero manual refresh required.
+
+The agent pipeline uses Anthropic Claude (claude-sonnet-4-20250514 via the Anthropic API) as the core reasoning layer, paired with OpenRouter for multi-model specialist routing across Llama 3.1, Mistral 7B, and Gemma 2. The UI is built on Next.js 14 with React 18, leveraging real-time state updates and generative rendering for a seamless, interactive experience.
+
+The generative interface renders live economic flow diagrams that update per agent action, approval/settlement widgets embedded directly in the UI, a margin analysis comparator (Arc vs Ethereum vs Solana), and a 50+ transaction explorer with on-chain proof. All micro-payments are settled in USDC on Circle Arc via Nitrolite's off-chain batching, making sub-cent agent actions economically viable. The full working application is live at [memintelligence.vectorblock.io](https://memintelligence.vectorblock.io).
+
+**Originality & Technical Execution:**
+- Real-time, multi-agent generative UI with autonomous micro-payment settlement
+- Live dashboards and economic flows, not just chat
+- Fully working codebase with Next.js 14, React 18, and advanced agent orchestration
+
+## Tech Stack & Products Used
+
+MemIntelligence leverages a cutting-edge stack and leading agentic frameworks to deliver a truly generative, real-time UI:
+
+**Core Stack:**
+- Next.js 14 & React 18 (UI, SSR, live state)
+- Node.js (backend API)
+- CopilotKit, A2UI, AG-UI, MCP (agent orchestration, generative UI, and agent pipeline)
+
+**AI & Agent Layer:**
+- Anthropic Claude (claude-sonnet-4-20250514)
+- OpenRouter (Llama 3.1, Mistral 7B, Gemma 2)
+- OpenAI (specialist routing)
+
+**Payments & On-chain:**
+- Nitrolite (off-chain ERC-7824 ECDSA channels)
+- Circle Arc (USDC settlement)
+- vectorblock.io (live mempool alerts)
+
+**Dev & Cloud:**
+- Microsoft (VS Code, Copilot)
+- AWS, Meta, Google DeepMind, LangChain, Manufact, AI Tinkerers
+
+**Frameworks/Tools Used:**
+- CopilotKit, A2UI, AG-UI, MCP
+- Google DeepMind
+- LangChain
+- Manufact
+- AI Tinkerers
+
+These frameworks and products enabled MemIntelligence to move far beyond chat, rendering live dashboards, forms, and economic flows that update in real time as agents act. Every tool above was instrumental in building a functional, interactive generative UI for the hackathon.
+# MemIntelligence — See Every Cent of Intelligence
 
 > The Bloomberg Terminal for the Agent Economy. A live economic marketplace where AI agents bid, subcontract, and settle sub-cent USDC micro-payments on Arc — with full economic visibility for every action.
 
-Built for the **Agentic Economy on Arc** hackathon.
 
-## Why AgentFlow?
+## Why MemIntelligence?
 
 Today, AI is sold as a black box subscription. But as AI becomes **agentic** — where multiple specialists collaborate on tasks — flat pricing breaks. You need to see who did what, what they charged, and whether the result was worth it.
 
-**AgentFlow makes that visible.**
+**MemIntelligence makes that visible.**
 
 - ⚡ **Sub-cent micro-payments** — Each agent action costs $0.001–$0.005 USDC
 - 🔍 **Live Economic Visibility** — See who paid whom, why, how much, and for what value
@@ -110,13 +163,6 @@ cp .env.example .env.local
 - **Circle Wallets** — Developer-controlled wallets for escrow and treasury
 - **USDC on Arc** — Settlement currency for all micro-payments
 
-## Submission
-
-- **Hackathon**: Agentic Economy on Arc
-- **Track**: Agentic Economy (primary), Payments & Commerce (secondary)
-- **Team**: Solo builder
-- **Built with**: Next.js, React, OpenRouter, Circle, Arc
-
 ---
 
-*AgentFlow — See Every Cent of Intelligence*
+*MemIntelligence — See Every Cent of Intelligence*
